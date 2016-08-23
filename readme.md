@@ -1,16 +1,16 @@
 # HatchMiner
 A twitter miner, bot, and data analysis tool for all your AI-driven social media needs
 
-### Installation
+## Installation
 Clone this repo and run the `setup.py` file in the root directory, like so
 
-```sh
+```
 $ git clone https://github.com/hatchAlpha/Miner
 $ cd miner/
 $ python setup.py install
 ```
 
-### Usage
+## Usage
 HatchMiner has three primary functions: a data miner, a bot, and an analytics tool. From the top-level cli, you can see all the options you have.
 
 ```
@@ -38,7 +38,7 @@ To run over the globally available flags, `--help` is fairly self-explanatory, `
 
 ---
 
-##### Miner
+### Miner
 The miner uses the [Tweepy module](https://github.com/tweepy/tweepy) for continuously streaming tweets. From its cli help page, we can see there's some things we need to take care of before we use it.
 
 ```
@@ -78,7 +78,7 @@ As a final note, we can combine `--filter` and `--geo` together to capture a wid
 
 ---
 
-##### Analyze
+### Analyze
 The analytics module is currently the most under-developed and I plan on broadening it in the coming weeks. Given this, it still works as it should.
 
 Again, if we take a look at the help command, we can see what our options are.  
@@ -104,5 +104,5 @@ Now we just need to point a browser to [127.0.0.1:1000](127.0.0.1:1000) and we'r
 
 ---
 
-##### Bot
+### Bot
 -needs doc-
