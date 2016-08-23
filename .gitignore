@@ -2,4 +2,3 @@ __pycache__/
 auth.yml
 sample.txt
 tweets.pickle
-vega.json
