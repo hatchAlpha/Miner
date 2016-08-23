@@ -1,0 +1,4 @@
+ - document bot
+ - finish bot posting
+ - improve bot tweet construction
+ - make analysis not suck

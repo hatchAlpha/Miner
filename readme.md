@@ -105,4 +105,4 @@ Now we just need to point a browser to [127.0.0.1:1000](127.0.0.1:1000) and we'r
 ---
 
 ##### Bot
-TODO: document and finish `post()`
+-needs doc-
