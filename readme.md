@@ -30,7 +30,7 @@ commands:
     analyze      Data analysis tool
     bot          Bot interface
 
-Visit https://github.com/Ao-san/tweetscrape/ for complete documentation. Visit http://woeid.rosselliot.co.nz/lookup/ for WOEID lookup services.
+Visit https://github.com/HatchAlpha/Miner for complete documentation. Visit http://woeid.rosselliot.co.nz/lookup/ for WOEID lookup services.
 ```
 Simply enough, `stream` is the miner, `analyze` is the analytics tool, and `bot` is the bot.
 
