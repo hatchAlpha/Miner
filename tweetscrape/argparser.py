@@ -21,7 +21,7 @@ class CustomParser(ArgumentParser):
 		else:
 			return args
 
-top_level=CustomParser(description="Ao's Twitter data mining and analysis tool",epilog="Visit https://github.com/Ao-san/tweetscrape for complete documentation. Visit http://woeid.rosselliot.co.nz/lookup/ for WOEID lookup services.")
+top_level=CustomParser(description="Ao's Twitter data mining and analysis tool",epilog="Visit https://github.com/HatchAlpha/Miner for complete documentation. Visit http://woeid.rosselliot.co.nz/lookup/ for WOEID lookup services.")
 top_level.add_argument('-v','--verbose',action='store_true',default=False,help="noisy output on errors")
 top_level.add_argument('-p','--purge',action='store_true',default=False,help="purge existing data dumps")
 
